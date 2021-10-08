@@ -1,7 +1,6 @@
-jQuery(function($){
    var flag = 0;
     function myFunction(url) {
-       if(flag >= 1)
+       if(flag >= 2)
           {
               if(url !== null){
                    window.location.href = "http://"+url;
@@ -14,4 +13,3 @@ jQuery(function($){
           }
           flag++;
     }
-});
