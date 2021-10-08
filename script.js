@@ -15,3 +15,7 @@ window.location.href = "https://pubfruitlesswording.com/fy755du4v?key=7b2683f6e5
 });
 
 });
+
+ document.getElementById("myButton").onclick = function () {
+        location.href = "www.yoursite.com";
+    };
