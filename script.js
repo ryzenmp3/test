@@ -5,7 +5,7 @@
               if(url !== null){
                    window.location.href = "http://"+url;
               }else{
-                  var home='<data:blog.url/>';
+                  var home='<data:blog.homepageUrl/>';
                   location.href = home;
               }
           }else{
